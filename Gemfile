@@ -1,5 +1,10 @@
 source 'https://rubygems.org'
 
+# Rspec Rails TDD Tool
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0'
+end
+
 # Rails_12 Factor Assest Compiler
 gem 'rails_12factor', group: :production
 
